@@ -1,0 +1,20 @@
+{
+  "name": "desert-dash-treasure-quest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Indian fantasy 2D arcade game wrapped with Capacitor",
+  "scripts": {
+    "build": "echo 'Web assets are in www/; run npx cap sync android after installing dependencies'",
+    "android:add": "npx cap add android",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor-community/admob": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
