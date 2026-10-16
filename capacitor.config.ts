@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.yourstudio.desertdash',
+  appId: 'com.desertdash.treasurequest',
   appName: 'Desert Dash',
   webDir: 'www',
   bundledWebRuntime: false,
